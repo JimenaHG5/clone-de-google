@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    /*mmargen hacia dentro*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+/*****************************/
+/*****************************/
+/*---------NAVEGACION-----------*/
+header{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 60px;
+}
+img{
+    width: 10px;
+}
+header nav{
+    /* JUSTIFICAR A LA DERECHA */
+    /*NOS HABILITA USAR FLEX-END, FLEX-START */
+    display: flex;
+    justify-content: flex-end;
+    background-color: flex-end;
+
+}
+header nav .nav-right-section{
+   
+    width: 250px;
+    height: auto;
+    /*eliminar puntitos*/
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+
+nav .nav-right-section a{
+    color:black;
+    margin-right: 20px;
+   
+}
+/*icono del menú*/
+nav .nav-right-section .menu{
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+nav .nav-right-section img{
+    border-radius: 90%;
+    /*cambiar tamaño*/
+    width: 25px;
+    height: 30px;
+    margin-left: 20px;
+}
+main{
+    background-color: rgb(255, 255, 255);
+    margin-top: 200px;
+    text-align: center;
+}
+main .main-logo {
+    
+    /*centrar automaticamente*/
+    width: 530px;
+    margin: 0 auto;
+}
+main .main-logo img{
+    width: 300px;
+}
+/*GMAIL main*/
+main .main-input{
+    
+    margin: 0 auto;
+    width: 530px;
+}
+main .main-input-container{
+    /*ancho|borde|estilo|colr*/
+    border: 1px solid #dfe1e5;
+    border-radius: 15px;
+    width: 525px;
+}
+main .main-input input{
+    width: 400px;
+    height: 30px;
+    /*quitar el borde*/
+    border: none;
+    /*quitar el borde cuando esta activo el input*/
+    outline: none;
+    border-radius: 15px;
+
+}
+main .main-input .search-input{
+    background-image: url(https://seekicon.com/free-icon-download/search_20.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 30px;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    
+}
+main .main-input .micro-icon{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 4%;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    
+}
+main .main-input .cam-icon{
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-right: 20px;
+    padding-left: 10px;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+   
+    
+}

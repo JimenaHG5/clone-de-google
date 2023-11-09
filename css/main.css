@@ -126,3 +126,51 @@ main .main-input .cam-icon{
    
     
 }
+footer{
+    margin-top: 180px;
+    background-color: rgb(222, 222, 222);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width:100%;
+    height: 120px;
+}
+
+footer .foot-top {
+    width: 10px;
+    padding: 20px;
+
+}
+footer .foot-top a{
+    margin-left: 30px;
+    margin-top: 20px;
+    color:gray;
+    margin: ;
+}
+footer .foot-bot{
+    margin-top: 2%;
+}
+footer .fot-bot ul{
+    list-style: none
+}
+footer .foot-bot .izq li{
+    margin-left: 20px;
+    float: left;
+    text-align: center;
+
+}
+footer .foot-bot .right {
+    justify-content: flex-end;
+
+} 
+footer .foot-bot .right ul{
+    margin-left: 50px;
+}
+footer .foot-bot .right li{
+    margin-left: 40px;
+    float: left;
+    text-align: center;
+}
+footer .foot-bot a{
+    color: gray;
+}
+footer .lef
